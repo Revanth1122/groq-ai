@@ -11,7 +11,6 @@ load_dotenv()
 
 api_key="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"
 
-
 # Set page config
 st.set_page_config(
     page_title="OpenAI Chat Assistant",
