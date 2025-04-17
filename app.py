@@ -6,11 +6,12 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import json
 
-# Load environment variables
 load_dotenv()
 
-# Load API key
-api_key = "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"
+# Fetch the API key from the environment
+api_key = os.getenv("OPENAI_API_KEY")
+
+
 
 # Set page config
 st.set_page_config(
