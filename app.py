@@ -8,9 +8,8 @@ import json
 
 load_dotenv()
 
-# Fetch the API key from the environment
-api_key = os.getenv("OPENAI_API_KEY")
 
+api_key="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"
 
 
 # Set page config
